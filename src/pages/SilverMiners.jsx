@@ -13,6 +13,7 @@ import {
   Filler,
 } from 'chart.js'
 import { Bar, Line, Doughnut } from 'react-chartjs-2'
+import Footer from '../components/Footer'
 
 ChartJS.register(
   CategoryScale,
@@ -189,9 +190,7 @@ export default function SilverMiners() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <span className="text-xl font-bold tracking-tight text-slate-800">
-                Ag<span className="text-slate-400 font-light">Equities</span>
-              </span>
+              <span className="text-xl font-bold tracking-tight text-slate-800">Research Article</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#macro" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
@@ -223,13 +222,24 @@ export default function SilverMiners() {
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
             Capturing the Silver Breakout
             <br />
-            <span className="text-slate-400 font-light">Without the Burden of Physical</span>
+            <span className="text-slate-400 font-light">Without the Burden of Physical Silver</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-300 mb-6 leading-relaxed">
             Geopolitical instability, structural supply deficits, and surging industrial demand have primed silver for a
             historic run. For investors avoiding physical metal and wary of &quot;paper silver&quot; decoupling, premium
             miners and streamers offer the optimal blend of leverage, security, and tangibility.
           </p>
+          <a
+            href="https://ninerec.substack.com/p/the-structural-realignment-of-the"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 font-medium transition-colors"
+          >
+            Read the full in-depth article on Substack
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
       </header>
 
@@ -239,7 +249,7 @@ export default function SilverMiners() {
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">The Macro Setup: A Structural Deficit</h2>
             <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">
-              This section validates your core premise. Silver is not just a monetary metal; it is a critical industrial
+              This is our core premise: that silver is not just a monetary metal; it is a critical industrial
               component (solar photovoltaics, EVs, electronics). We are currently experiencing severe consecutive years
               of structural supply deficits. Comex inventories are depleting because industrial users are taking physical
               delivery, increasing the risk of &quot;paper&quot; derivatives breaking down.
@@ -258,10 +268,10 @@ export default function SilverMiners() {
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">The Decoupling Dilemma: Choosing Your Vehicle</h2>
             <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">
-              You rightly identified the risk of ETFs like SLV. In a severe stress event where physical silver is
+              There is growing risk in ETFs like SLV. In a severe stress event where physical silver is
               hoarded, &quot;paper&quot; claims may settle in cash at an artificially suppressed spot price, rather than
               delivering the actual metal&apos;s value. Here we compare the three primary ways to play the market,
-              confirming why equities (miners) are the optimal choice for your thesis.
+              demonstrating why equities (miners) are the optimal choice.
             </p>
           </div>
 
@@ -349,7 +359,7 @@ export default function SilverMiners() {
               <div className="bg-slate-50 p-6 rounded-lg text-center border border-slate-200">
                 <div className="text-4xl mb-2">🪙</div>
                 <div className="font-semibold text-slate-700">Verdict: Too Cumbersome</div>
-                <div className="text-sm text-slate-500 mt-2">Violates your requirement to avoid physical ownership.</div>
+                <div className="text-sm text-slate-500 mt-2">We prefer to avoid physical ownership.</div>
               </div>
             </div>
           )}
@@ -375,7 +385,7 @@ export default function SilverMiners() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-500 font-bold mr-2">✕</span>{' '}
-                    <strong>Operational Risk:</strong> Jurisdictional issues (like your Zimbabwe example), cost
+                    <strong>Operational Risk:</strong> Jurisdictional issues, cost
                     inflation, and management errors.{' '}
                     <em className="text-sm block mt-1">(We mitigate this in the next sections).</em>
                   </li>
@@ -493,7 +503,7 @@ export default function SilverMiners() {
                 </div>
               </div>
               <div className="md:w-2/3">
-                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits your thesis:</h4>
+                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits our thesis:</h4>
                 <p className="text-slate-600 text-sm mb-4">
                   Wheaton is a <strong>streaming company</strong>, not a miner. They don&apos;t operate mines. They
                   provide upfront capital to miners in exchange for the right to buy future silver at a fixed, deeply
@@ -522,7 +532,7 @@ export default function SilverMiners() {
                 </div>
               </div>
               <div className="md:w-2/3">
-                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits your thesis:</h4>
+                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits our thesis:</h4>
                 <p className="text-slate-600 text-sm mb-4">
                   Hecla is the largest primary silver producer in the <strong>United States</strong>. Their flagship
                   Greens Creek mine in Alaska is one of the highest-grade and lowest-cost silver mines in the world.
@@ -553,7 +563,7 @@ export default function SilverMiners() {
                 </div>
               </div>
               <div className="md:w-2/3">
-                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits your thesis:</h4>
+                <h4 className="text-lg font-bold text-slate-800 mb-2">Why it fits our thesis:</h4>
                 <p className="text-slate-600 text-sm mb-4">
                   A massive, actively producing operator across the Americas (Canada, Mexico, Peru, etc.). By having many
                   producing mines, they dilute the risk of any single geopolitical event or mine collapse. They offer
@@ -625,9 +635,7 @@ export default function SilverMiners() {
         </section>
       </main>
 
-      <footer className="bg-slate-900 border-t border-slate-800 text-slate-400 py-8 text-center text-sm">
-        <p>© 2026 AgEquities Research. For informational purposes only. Not financial advice.</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
